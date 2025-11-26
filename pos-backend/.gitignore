@@ -1,0 +1,84 @@
+##############################
+# Java / Maven / Spring Boot
+##############################
+
+# Compiled class files
+*.class
+
+# Log files
+logs/
+*.log
+*.log.*
+
+# Spring Boot DevTools
+.spring-boot-devtools.properties
+
+# Maven target folder
+target/
+**/target/
+
+# Maven wrapper files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Build artifacts
+build/
+**/build/
+
+##############################
+# Environment / Secrets
+##############################
+
+# .env files containing secrets
+.env
+.env.*
+!.env.example
+
+##############################
+# IntelliJ IDEA
+##############################
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# JetBrains project files
+*.classpaths
+*.settings/
+*.apt_generated/
+
+##############################
+# Eclipse / STS
+##############################
+.classpath
+.project
+.settings/
+.apt_generated
+.springBeans
+.sts4-cache
+
+##############################
+# VS Code
+##############################
+.vscode/
+
+##############################
+# OS files
+##############################
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+##############################
+# Others
+##############################
+HELP.md
