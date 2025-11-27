@@ -1,6 +1,6 @@
 package app.posify.exceptions;
 
-public class UserException extends Throwable {
+public class UserException extends Exception {
     public UserException(String message) {
 
         super(message);
