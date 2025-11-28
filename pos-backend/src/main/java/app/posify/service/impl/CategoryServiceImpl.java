@@ -1,7 +1,6 @@
-package app.posify.service;
+package app.posify.service.impl;
 
 import app.posify.domain.UserRole;
-import app.posify.exceptions.UserException;
 import app.posify.mapper.CategoryMapper;
 import app.posify.modal.Category;
 import app.posify.modal.Store;
@@ -9,6 +8,8 @@ import app.posify.modal.User;
 import app.posify.payload.dto.CategoryDTO;
 import app.posify.repository.CategoryRepository;
 import app.posify.repository.StoreRepository;
+import app.posify.service.CategoryService;
+import app.posify.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
